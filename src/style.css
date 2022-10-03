@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700;800&family=Poppins&family=Roboto:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: coral;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  z-index: 1;
+  box-shadow: 0 0 10px #5f5f5f;
+  border-radius: 10px;
+  transform: translateY(10rem);
+  position: relative;
+}
+
+#heading,
+#form {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+#list-ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.clear-btn {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  color: white;
+  background-color: brown;
+  transition: all 0.5s ease-out;
+}
+
+.list-li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2px;
+}
+
+.list-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+#input-span,
+#heading-span {
+  color: grey;
+  opacity: 0.7;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.del-btn {
+  cursor: pointer;
+  align-self: flex-end;
+  color: grey;
+  opacity: 0.7;
+}
